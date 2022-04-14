@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>打刻アプリ</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>タイムカード</h1>
+            <input class="contact-submit" type="submit" value="出勤"/>
+            <h2>出勤お疲れさまです</h2>
+        </div>
+
+        <div class="main">
+            <h3 class="section-title">勤務記録</h3>
+            <input class="month "type="month">
+            <div class="calendar-container">
+                <h1>4月</h1>
+                <table class="calendar">
+                    <tr>
+                        <th>日</th>
+                        <th>月</th>
+                        <th>火</th>
+                        <th>水</th>
+                        <th>木</th>
+                        <th>金</th>
+                        <th>土</th>
+                    </tr>
+                    <tr class="day">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td> 
+                    </tr>
+                    <tr class="day">
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                    <tr class="day">
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>  
+                    </tr>
+                    <tr class="day">
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>  
+                    </tr>
+                    <tr class="day">
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>  
+                    </tr>
+
+                </table>
+            </div>
+            <div class="contents-item">
+                <p>法定内</p>
+                <input type="time">
+            </div>
+            <div class="contents-item">
+                <p>時間外</p>
+                <input type="time">
+            </div>
+            <div class="contents-item">
+                <p>深夜</p>
+                <input type="time">
+            </div>
+            <div class="detail">
+            <input type="submit" value="給与明細を表示">
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3 class="section-title">設定</h3>
+            <div class="footer-logo">勤務時間</div>
+            <div class="footer-list">
+                <ul>
+                    <li>定時開始時刻</li>
+                    <li>定時終了時刻</li>
+                    <li>休憩開始時刻</li>
+                    <li>休憩終了時刻</li>
+                    <li>深夜残業開始時刻</li>
+                    <li>深夜残業終了時刻</li>
+                </ul>
+            </div>
+            <div class="footer-logo">給与</div>
+            <div class="footer-list">
+                <ul>
+                    <li>定時給与</li>
+                    <li>残業給与</li>
+                    <li>深夜残業給与</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
